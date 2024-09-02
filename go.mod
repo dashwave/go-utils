@@ -1,4 +1,4 @@
-module github.com/bitrise-io/go-utils/v2
+module github.com/dashwave/go-utils/v2
 
 go 1.17
 

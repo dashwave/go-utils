@@ -1,6 +1,6 @@
 package log
 
-import "github.com/bitrise-io/go-utils/v2/log/colorstring"
+import "github.com/dashwave/go-utils/v2/log/colorstring"
 
 // Severity ...
 type Severity uint8

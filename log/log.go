@@ -23,6 +23,7 @@ type Logger interface {
 	TErrorf(format string, v ...interface{})
 	Println()
 	EnableDebugLog(enable bool)
+	SetOutput(w io.Writer)
 }
 
 const defaultTimeStampLayout = "15:04:05"
@@ -110,6 +111,10 @@ func (l *logger) TErrorf(format string, v ...interface{}) {
 // Println ...
 func (l *logger) Println() {
 	fmt.Println()
+}
+
+func (l *logger) SetOutput(w io.Writer) {
+	l.stdout = w
 }
 
 func (l *logger) timestampField() string {

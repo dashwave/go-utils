@@ -7,7 +7,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/bitrise-io/go-utils/v2/env"
+	"github.com/dashwave/go-utils/v2/env"
 )
 
 // ErrorFinder ...

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/bitrise-io/go-utils/v2/log"
-	"github.com/bitrise-io/go-utils/v2/retryhttp"
+	"github.com/dashwave/go-utils/v2/log"
+	"github.com/dashwave/go-utils/v2/retryhttp"
 )
 
 const trackEndpoint = "https://step-analytics.bitrise.io/track"

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/bitrise-io/go-utils/v2/pathutil"
+	"github.com/dashwave/go-utils/v2/pathutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bitrise-io/go-utils/v2/command"
+	"github.com/dashwave/go-utils/v2/command"
 )
 
 // FormattedError ...
